@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     "courses",
     "students",
+    "embed_video",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
