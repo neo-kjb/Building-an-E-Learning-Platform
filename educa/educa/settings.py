@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "redisboard",
     "rest_framework",
     "chat",
+    "channels",
 ]
 
 MIDDLEWARE = [
@@ -163,3 +164,6 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
+
+
+ASGI_APPLICATION = "educa.asgi.application"
