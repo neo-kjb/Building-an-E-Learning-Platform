@@ -146,3 +146,4 @@ rabbitmq_data
 **/staticfiles
 **/static
 data
+educa/uwsgi_app.sock

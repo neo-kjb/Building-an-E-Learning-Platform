@@ -22,3 +22,7 @@ CACHES["default"]["LOCATION"] = REDIS_URL
 CHANNEL_LAYERS["default"]["CONFIG"]["hosts"] = [REDIS_URL]
 
 ALLOWED_HOSTS = ["educaproject.com", "www.educaproject.com"]
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
